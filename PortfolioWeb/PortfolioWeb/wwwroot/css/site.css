@@ -19,9 +19,15 @@ a:link {
     text-decoration:none ;
 }
 
-/*NavBar Header font size for Name*/
-span {
+/*NavBar header Name large text*/
+.parent {
     font-size: 44px
+}
+
+/*NavBar header name description (i.e., software engineer, etc)*/
+.child {
+    padding: 1px 1px 1px 1px ;
+    text-align:match-parent
 }
 
 .btn-primary {
