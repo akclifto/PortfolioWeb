@@ -2,11 +2,11 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  font-size:large;
-  text-align: center;
-  word-break: break-all;
-  
+    white-space: normal;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: large;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Provide sufficient contrast against white background */
@@ -14,20 +14,26 @@ a {
   color: #0366d6;
 }
 
-/*No underline for hyuperlinks  */
+/*No underline for hyperlinks  */
 a:link {
     text-decoration:none ;
 }
 
 /*NavBar header Name large text*/
 .parent {
-    font-size: 44px
+    font-size: 44px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 /*NavBar header name description (i.e., software engineer, etc)*/
 .child {
-    padding: 1px 1px 1px 1px ;
-    text-align:match-parent
+    padding: 1px 1px 1px 1px;
+    text-align: match-parent;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .btn-primary {
@@ -37,19 +43,19 @@ a:link {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 22px;
   }
 }
 
@@ -72,18 +78,22 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-family: 'Pragati Narrow', sans-serif;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Pragati Narrow', sans-serif;
+    letter-spacing: 1px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    font-family: 'Pragati Narrow', sans-serif;
 }
