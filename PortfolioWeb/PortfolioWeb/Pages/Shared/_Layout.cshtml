@@ -1,5 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
+<!--HEADER-->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,11 +9,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
+<!--BODY -->
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">PortfolioWeb</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Adam Clifton Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,7 +26,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Transcripts">Transcripts</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://www.linkedin.com/in/adam-clifton-4bb107b3/" style="color: #343a40" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://github.com/akclifto" style="color: #343a40" target="_blank" rel="noopener noreferrer">Github Profile</a>
                         </li>
                     </ul>
                 </div>
@@ -35,9 +45,10 @@
         </main>
     </div>
 
+    <!--FOOTER-->
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - PortfolioWeb - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2020 - Adam Clifton Portfolio - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
@@ -47,4 +58,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
