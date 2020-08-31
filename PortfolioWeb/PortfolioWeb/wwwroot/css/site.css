@@ -42,10 +42,52 @@ a:link {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+}
+
+/* Contact page
+--------------------------------------------------- */
+.contact-row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.contact-left{
+    float:left;
+    width: 30%;
+    padding: 10px;
+    background-color: darkseagreen;
+}
+
+.contact-middle {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.contact-right {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Dynamic display of columns from horizontal to vertical if width narrow.*/
+@media screen and (max-width: 500px) {
+    .contact-left{
+        width: 100%;
+    }
+    .contact-middle{
+        width: 100%;
+    }
+    .contact-right {
+        width: 100%;
+    }
 }
 
 /* Sticky footer styles
