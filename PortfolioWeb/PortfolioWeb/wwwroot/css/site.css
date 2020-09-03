@@ -1,7 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-/*Navbar: Contains name parent and child.*/
+
+/*Navigation bar contents --------------------------------*/
+
+/*Navbar contains name parent and child.*/
 a.navbar-brand {
     white-space: normal;
     font-family: 'Pragati Narrow', sans-serif;
@@ -26,7 +29,6 @@ a {
     }
         /*general, maybe make specific*/
         a:link:hover {
-            /*transform: scale(1.05);*/
             /*highlight them*/
         }
 
