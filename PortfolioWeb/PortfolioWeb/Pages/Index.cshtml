@@ -4,21 +4,65 @@
     ViewData["Title"] = "Who Am I";
 }
 
-<div class="text-md-left">
+<div class="container" style="padding-left:inherit">
+
     <h1> @ViewData["Title"]</h1>
-    <p>
-        This is where my summary will go, check from resume.
-    </p>
+    <div class="home-row">
+        <div class="home-left">
+            <!--just resume dump for now-->
+            I am an ambitious professional aspiring to develop a long-term career in the field of
+            technology.  
+            I have the proven ability to work well under pressure, independently or as part of
+            a team.
+            I communicate effectively and personably with both coworkers and clients.
 
-    <p>
-        WHO AM I will be the only visible thing on the splash page. <br />
+            <br /><br />
+            I am a current student at Arizona State University developing software
+            engineering skills, and
+            I continue to build on my knowledge of programming logic, design process
+            and patterns, structure implementation, software/system analysis, 
+            agile and scrum workflow,
+            and quality assurance.  
 
-        include links to: <br />
-        (1) education <br />
-        (2) professional exp <br />
-        (3) Additional skillsets <br />
-        (5) Projects
-        (6) Contact (maybe just an email link)
+            <br /><br />
+            I have a sincere interest and passion for technology 
+            and am committed to expanding my knowledge and expertise in the ever-evolving field.
 
-    </p>
+            <div class="learn-more">
+                <a class="nav-link" asp-area="" asp-page="/About">&lt...Learn More...&gt</a>
+            </div>
+
+        </div>
+        <div class="home-right" style="position:relative">
+            <!--professional image to go here-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg" /> <!--test placeholder -->
+            @*<img src="https://i.redd.it/xgorxiy1z4s11.png" />*@ <!--test placeholder -->
+        </div>
+
+    </div>
+
 </div>
+
+<div class="container-fluid" style="padding-left:inherit">
+
+        <h4>
+            Education
+        </h4>
+        <h4>
+            Professional Experience
+        </h4>
+        <h4>
+            Skillsets
+        </h4>
+        <h4>
+            Projects
+        </h4>
+        <h4>
+            Contact
+        </h4>
+
+</div>
+
+
+
+

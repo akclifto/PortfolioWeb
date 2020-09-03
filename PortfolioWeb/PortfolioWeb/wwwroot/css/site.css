@@ -2,7 +2,8 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 
-/*Navigation bar contents --------------------------------*/
+/*Navigation bar contents
+-----------------------------------------------------*/
 
 /*Navbar contains name parent and child.*/
 a.navbar-brand {
@@ -13,11 +14,6 @@ a.navbar-brand {
     word-break: break-all;
 }
 
-    a.navbar-brand:hover {
-        /*change option when hovering over name paren and child*/
-        /*transform: scale(1.05);*/
-    }
-
 /* Provide sufficient contrast against white background for navbar */
 a {
     color: mediumseagreen; /*link colors (Email, Privacy)*/
@@ -27,10 +23,10 @@ a {
     a:link {
         text-decoration: none;
     }
-        /*general, maybe make specific*/
-        a:link:hover {
-            /*highlight them*/
-        }
+
+    a.contact-middle.test:hover {
+        transform: scale(5.0);
+    }
 
 /*Navbar background color*/
 .navbar {
@@ -83,8 +79,54 @@ a {
     transform: scale(1.05);
 }
 
+/* Home page
+-----------------------------------------------------*/
+.home-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-left {
+    float: left;
+    width: 60%;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.home-right {
+    float: left;
+    width: 40%;
+    padding-left: 20px;
+}
+
+img {
+    max-width:400px;
+    height:auto;
+    border-radius: 30%;
+}
+
+.learn-more {
+    text-align:right;
+}
+
+.learn-more a.nav-link:hover{
+    transform:skew(-10deg);
+}
+
+
+
+/*.learn-more:hover {
+    transform:skewX(-6deg);
+}*/
+
+a.learn-more.nav-link:hover {
+    transform: skewX(-30deg);
+}
+
+
 /* Contact page
---------------------------------------------------------- */
+-----------------------------------------------------*/
 .contact-row:after {
     content: "";
     display: table;
@@ -105,13 +147,6 @@ a {
     min-height: 20px;
 }
 
-.contact-middle-content { /*unused*/
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .contact-right {
     float: left;
     width: 50%;
@@ -119,7 +154,8 @@ a {
 }
 
 
-/* Dynamic display of columns from horizontal to vertical if width narrow.*/
+/* Dynamic display of columns from 
+    horizontal to vertical if width narrow.*/
 @media screen and (max-width: 600px) {
 
     .contact-left {
@@ -139,17 +175,16 @@ a {
     padding-top: 0px;
 }
 
+
 .links { /*img links (LinkdIn, Github, etc.)*/
     font-size: 22px;
-    float:left;
-}
-
-a.github:hover {
-    transform:scale(1.05);
+    /*    float:left;*/
 }
 
 
-/* Privacy Tab ------------------------------------------*/
+
+/* Privacy Tab
+-----------------------------------------------------*/
 .privacy-row:after {
     content: "";
     display: table;
@@ -170,7 +205,7 @@ a.github:hover {
 
 
 /* Sticky footer styles
--------------------------------------------------- */
+-----------------------------------------------------*/
 html {
     font-size: 18px;
 }
@@ -199,8 +234,9 @@ button.accept-policy {
     line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+
+/*General Body 
+-----------------------------------------------------*/
 html {
     position: relative;
     min-height: 100%;
