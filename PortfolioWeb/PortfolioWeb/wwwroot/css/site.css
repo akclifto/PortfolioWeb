@@ -1,6 +1,7 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/*Navbar: Contains name parent and child.*/
 a.navbar-brand {
     white-space: normal;
     font-family: 'Pragati Narrow', sans-serif;
@@ -11,13 +12,24 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
 }
 
-/*No underline for hyperlinks  */
-a:link {
-    text-decoration:none ;
+    /*No underline for hyperlinks  */
+    a:link {
+        text-decoration: none;
+    }
+
+        a:link:hover {
+            transform: scale(1.05);
+            /*highlight them*/
+        }
+
+/*Navbar background color*/
+.navbar {
+    /*background-color: aqua;*/
 }
+
 
 /*NavBar header Name large text*/
 .parent {
@@ -37,27 +49,29 @@ a:link {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    /*background-color: #1b6ec2;*/
+    background-color: magenta;
+    border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show >.nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #1b6ec2;
+    /*background-color: #1b6ec2;*/
+    background-color: magenta;
     border-color: #1861ac;
 }
 
 /* Contact page
 --------------------------------------------------- */
 .contact-row:after {
-    content:"";
-    display:table;
-    clear:both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.contact-left{
-    float:left;
+.contact-left {
+    float: left;
     width: 30%;
     padding: 10px;
     background-color: darkseagreen;
@@ -79,12 +93,14 @@ a:link {
 
 /* Dynamic display of columns from horizontal to vertical if width narrow.*/
 @media screen and (max-width: 500px) {
-    .contact-left{
+    .contact-left {
         width: 100%;
     }
-    .contact-middle{
+
+    .contact-middle {
         width: 100%;
     }
+
     .contact-right {
         width: 100%;
     }
@@ -93,28 +109,32 @@ a:link {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 18px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 22px;
-  }
+    font-size: 18px;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
+@media (min-width: 768px) {
+
+    html {
+        font-size: 22px;
+    }
 }
+
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 /* Sticky footer styles
@@ -130,7 +150,10 @@ body {
     margin-bottom: 60px;
     font-family: 'Pragati Narrow', sans-serif;
     letter-spacing: 1px;
+    /*color of background*/
+    /*background-color:indianred;*/
 }
+
 .footer {
     position: absolute;
     bottom: 0;

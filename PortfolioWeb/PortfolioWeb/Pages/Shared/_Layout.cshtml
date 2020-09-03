@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <!--Font from Google API-->
     <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <!-- JQuery navbar color change.-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+            crossorigin="anonymous">
+
+    </script>
 </head>
 
 <!--BODY -->
 <body>
     <!--HEADER-->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-4">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light primary-color box-shadow mb-4">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
                     <div class="parent">Adam Clifton</div>
@@ -35,18 +41,19 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Transcripts">Transcripts</a>
                         </li>
+                        @* These need to move to contact page. *@
                         <!--LinkedIn Profile: open new tab-->
-                        <li class="nav-link">
+                        <!--<li class="nav-link">
                             <a href="https://www.linkedin.com/in/adam-clifton-4bb107b3/" style="color: #343a40" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
-                        </li>
+                        </li>-->
                         <!--GitHub Profile: open new tab-->
-                        <li class="nav-link">
+                        <!--<li class="nav-link">
                             <a href="https://github.com/akclifto" style="color: #343a40" target="_blank" rel="noopener noreferrer">Github Profile</a>
-                        </li>
+                        </li>-->
                         <!--Contact info: will be an email-->
                         <li>
                             <!--Undecided how to implement this-->
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact and Links</a>
                         </li>
                     </ul>
                 </div>
@@ -62,7 +69,7 @@
     <!--FOOTER-->
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Adam Clifton Portfolio - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2020 - Adam Clifton - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
