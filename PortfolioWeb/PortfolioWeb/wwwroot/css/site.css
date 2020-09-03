@@ -105,7 +105,7 @@ a {
     min-height:20px;
 }
 
-.contact-middle-content {
+.contact-middle-content { /*unused*/
     text-align:center;
     display: block;
 
@@ -119,6 +119,11 @@ a {
     padding-left: 10px;
 }
 
+/*Links images*/
+img {
+    display:block;
+
+}
 
 /* Dynamic display of columns from horizontal to vertical if width narrow.*/
 @media screen and (max-width: 600px) {
