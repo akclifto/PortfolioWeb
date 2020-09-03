@@ -10,6 +10,11 @@ a.navbar-brand {
     word-break: break-all;
 }
 
+a.navbar-brand:hover {
+    /*change option when hovering over name paren and child*/
+    /*transform: scale(1.05);*/
+}
+
 /* Provide sufficient contrast against white background */
 a {
     color: #0366d6;
@@ -21,12 +26,12 @@ a {
     }
         /*general, maybe make specific*/
         a:link:hover {
-            transform: scale(1.05);
+            /*transform: scale(1.05);*/
             /*highlight them*/
         }
 
 /*Navbar background color*/
-.navbar {
+.navbar:hover {
     /*background-color: aqua;*/
 }
 
@@ -37,7 +42,9 @@ a {
     font-family: 'Pragati Narrow', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
+    transform:scale(1.0)
 }
+
 
 /*NavBar header name description (i.e., software engineer, etc)*/
 .child {
@@ -46,6 +53,7 @@ a {
     font-family: 'Pragati Narrow', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    transform: scale(1.0)
 }
 
 .btn-primary {
@@ -60,6 +68,11 @@ a {
     /*background-color: #1b6ec2;*/
     background-color: magenta;
     border-color: #1861ac;
+}
+
+/*Enlarge Nav Item on hover*/
+.nav-item:hover {
+    transform: scale(1.05);
 }
 
 /* Contact page
