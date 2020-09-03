@@ -9,19 +9,13 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <!--Font from Google API-->
     <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
-    <!-- JQuery navbar color change.-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-            crossorigin="anonymous">
-
-    </script>
 </head>
 
 <!--BODY -->
 <body>
     <!--HEADER-->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light primary-color box-shadow mb-4">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shadow mb-4">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
                     <div class="parent">Adam Clifton</div>
@@ -35,15 +29,15 @@
                     <ul class="navbar-nav flex-grow-1">
                         <!--Home Landing Page-->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <!--Projects page for work related projects.-->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Projects">Projects</a>
+                            <a class="nav-link" asp-area="" asp-page="/Projects">Projects</a>
                         </li>
                         <!--Transcripts Page-->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Transcripts">Transcripts</a>
+                            <a class="nav-link" asp-area="" asp-page="/Transcripts">Transcripts</a>
                         </li>
                         @* These need to move to contact page. *@
                         <!--LinkedIn Profile: open new tab-->
@@ -57,13 +51,14 @@
                         <!--Contact info: will be an email-->
                         <li class=" nav-item">
                             <!--Undecided how to implement this-->
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contacts/Links</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Contact">Contacts/Links</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -73,7 +68,9 @@
     <!--FOOTER-->
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Adam Clifton - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="footer-msg">
+                &copy; 2020 - Adam Clifton - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
         </div>
     </footer>
 
