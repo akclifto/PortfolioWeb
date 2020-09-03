@@ -13,10 +13,10 @@ a.navbar-brand {
     word-break: break-all;
 }
 
-a.navbar-brand:hover {
-    /*change option when hovering over name paren and child*/
-    /*transform: scale(1.05);*/
-}
+    a.navbar-brand:hover {
+        /*change option when hovering over name paren and child*/
+        /*transform: scale(1.05);*/
+    }
 
 /* Provide sufficient contrast against white background for navbar */
 a {
@@ -44,7 +44,7 @@ a {
     font-family: 'Pragati Narrow', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
-    transform:scale(1.0)
+    transform: scale(1.0)
 }
 
 
@@ -76,9 +76,9 @@ a {
 
 /*Navbar items*/
 .navbar-section {
-    color:whitesmoke;
+    color: whitesmoke;
 }
-    /*Enlarge on hover*/
+/*Enlarge on hover*/
 .nav-item:hover {
     transform: scale(1.05);
 }
@@ -95,13 +95,22 @@ a {
     float: left;
     width: 30%;
     padding-right: 10px;
-    text-align:justify;
+    text-align: justify;
 }
 
 .contact-middle {
     float: left;
     width: 20%;
-    padding: 0px;
+    min-width:20px;
+    min-height:20px;
+}
+
+.contact-middle-content {
+    text-align:center;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-right {
@@ -131,7 +140,6 @@ a {
 }
 
 .Links {
-    
 }
 
 
@@ -143,7 +151,7 @@ a {
 }
 
 .privacy-left {
-    text-align:justify;
+    text-align: justify;
     float: left;
     width: 45%;
     background-color: whitesmoke;
@@ -198,7 +206,7 @@ body {
     margin-bottom: 60px;
     font-family: 'Pragati Narrow', sans-serif;
     letter-spacing: 1px;
-    background-color:whitesmoke; /*Body color*/
+    background-color: whitesmoke; /*Body color*/
 }
 
 .footer {
