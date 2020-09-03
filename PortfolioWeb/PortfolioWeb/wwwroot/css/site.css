@@ -20,7 +20,7 @@ a.navbar-brand:hover {
 
 /* Provide sufficient contrast against white background for navbar */
 a {
-    color: darkseagreen; /*link colors (Email, Privacy)*/
+    color: mediumseagreen; /*link colors (Email, Privacy)*/
 }
 
     /*No underline for hyperlinks  */
@@ -75,13 +75,13 @@ a {
 }
 
 /*Navbar items*/
-.nav-item {
-    color: #1861ac;
+.navbar-section {
+    color:whitesmoke;
 }
     /*Enlarge on hover*/
-    .nav-item:hover {
-        transform: scale(1.05);
-    }
+.nav-item:hover {
+    transform: scale(1.05);
+}
 
 /* Contact page
 --------------------------------------------------------- */
@@ -94,22 +94,44 @@ a {
 .contact-left {
     float: left;
     width: 30%;
-    padding: 30px;
-    background-color:darkolivegreen;
+    padding-right: 10px;
+    text-align:justify;
 }
 
 .contact-middle {
     float: left;
     width: 20%;
-    padding: 10px;
-    background-color: yellow;
+    padding: 0px;
 }
 
 .contact-right {
     float: left;
     width: 50%;
-    padding: 10px;
-    background-color: lightgoldenrodyellow;
+    padding-left: 10px;
+}
+
+
+/* Dynamic display of columns from horizontal to vertical if width narrow.*/
+@media screen and (max-width: 600px) {
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-middle {
+        width: 100%;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+}
+
+.Email {
+    padding-top: 0px;
+}
+
+.Links {
+    
 }
 
 
@@ -127,20 +149,11 @@ a {
     background-color: whitesmoke;
 }
 
-/* Dynamic display of columns from horizontal to vertical if width narrow.*/
-@media screen and (max-width: 500px) {
-    .contact-left {
-        width: 100%;
-    }
-
-    .contact-middle {
-        width: 100%;
-    }
-
-    .contact-right {
-        width: 100%;
-    }
+.privacy-right {
+    /*put an image in here*/
+    width: 55%;
 }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */

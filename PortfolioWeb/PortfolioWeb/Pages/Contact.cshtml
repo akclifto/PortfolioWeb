@@ -1,7 +1,7 @@
 ﻿@page
 @model PortfolioWeb.Pages.ContactModel
 @{
-    ViewData["Title"] = "Contact and Profile Links";
+    ViewData["Title"] = "Contact";
 }
     <h1 style="text-align:center"> @ViewData["Title"]</h1>
 
@@ -9,18 +9,25 @@
         <div class="contact-left">
             <div class="Email">
                 <p>
-                    Email Me: <a href="mailto:adamkclifton@gmail.com" >adamkclifton@gmail.com</a>
+                    <h4>Email</h4>
+                    Send me an Email: <br />
+                    <a href="mailto:adamkclifton@gmail.com" >adamkclifton@gmail.com</a>
                 </p>
+            </div>
+            <div class="Links">
+                <h4>Links</h4>
+
+
             </div>
             a short blurb about contacting me. <br />
             use gmail email.
         </div>
         <div class="contact-middle">
-            middle:  this section will be empty.  Used as buffer.
+            <h2 class="middle text-center">OR</h2="">
         </div>
         <div class="contact-right">
             <p>
-                Send me an email! <br />
+                <h4 class="text-md-left">Send me an Email</h4>
                 TODO: make a contact submission that emails me. <br />
                 LAYOUT:<br />
                 Name: --Text box to type-- <br />
