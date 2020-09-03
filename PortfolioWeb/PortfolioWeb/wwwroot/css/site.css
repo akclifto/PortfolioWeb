@@ -101,14 +101,13 @@ a {
 .contact-middle {
     float: left;
     width: 20%;
-    min-width:20px;
-    min-height:20px;
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .contact-middle-content { /*unused*/
-    text-align:center;
+    text-align: center;
     display: block;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -119,14 +118,10 @@ a {
     padding-left: 10px;
 }
 
-/*Links images*/
-img {
-    display:block;
-
-}
 
 /* Dynamic display of columns from horizontal to vertical if width narrow.*/
 @media screen and (max-width: 600px) {
+
     .contact-left {
         width: 100%;
     }
@@ -140,11 +135,17 @@ img {
     }
 }
 
-.Email {
+.email {
     padding-top: 0px;
 }
 
-.Links {
+.links { /*img links (LinkdIn, Github, etc.)*/
+    font-size: 22px;
+    float:left;
+}
+
+a.github:hover {
+    transform:scale(1.05);
 }
 
 
