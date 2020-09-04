@@ -23,23 +23,29 @@
   {
     "Id": "0004",
     "Tab": "Index",
-    "Title": "Educ",
-    "img": "~/lib/572.jpeg",
-    "Description": "I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients."
+    "Title": "Education",
+    "img": null,
+    "Description": null
   },
   {
     "Id": "0005",
     "Tab": "Index",
-    "Title": "Who Am I",
-    "img": "~/lib/572.jpeg",
-    "Description": "I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients."
+    "Title": "Professional Experience",
+    "img": null,
+    "Description": null
   },
   {
     "Id": "0006",
     "Tab": "Index",
-    "Title": "Who Am I",
-    "img": "~/lib/572.jpeg",
-    "Description": "I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients."
+    "Title": "Skillsets",
+    "img": null,
+    "Description": null
+  },
+  {
+    "Id": "0007",
+    "Tab": "Index",
+    "Title": "Projects",
+    "img": null,
+    "Description": null
   }
-
 ]
