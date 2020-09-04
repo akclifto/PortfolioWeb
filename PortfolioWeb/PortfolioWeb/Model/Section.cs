@@ -10,7 +10,7 @@ namespace PortfolioWeb.Model
     public class Section
     {
         /// <summary>
-        /// Id: Numerical way to define sections within the web portfolio
+        /// Id: Numerical way to define section information within the web portfolio
         /// </summary>
         public string Id { get; set; }
         /// <summary>
