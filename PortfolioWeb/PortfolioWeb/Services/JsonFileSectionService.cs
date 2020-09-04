@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using PortfolioWeb.Model;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace PortfolioWeb.Services
 {
@@ -20,7 +17,6 @@ namespace PortfolioWeb.Services
             WebHostEnvironment = webHostEnvironment;
         }
 
-
         /// <summary>
         /// public get for webHostEnvironment
         /// </summary>
@@ -34,7 +30,7 @@ namespace PortfolioWeb.Services
         {
             get
             {
-                return Path.Combine(WebHostEnvironment.WebRootPath, 
+                return Path.Combine(WebHostEnvironment.WebRootPath,
                     "data", "sections.json");
             }
         }

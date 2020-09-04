@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace PortfolioWeb.Model
 {
@@ -13,14 +9,17 @@ namespace PortfolioWeb.Model
         /// Id: Numerical way to define section information within the web portfolio
         /// </summary>
         public string Id { get; set; }
+
         /// <summary>
-        /// Tab: The name of each specific tab relating to each 
+        /// Tab: The name of each specific tab relating to each
         /// </summary>
         public string Tab { get; set; }
+
         /// <summary>
         /// Title: The name of each section
         /// </summary>
         public string Title { get; set; }
+
         /// <summary>
         /// Description: Corresponding body of text for each section title.
         /// </summary>

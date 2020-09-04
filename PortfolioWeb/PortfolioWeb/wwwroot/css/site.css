@@ -1,7 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-
 /*Navigation bar contents
 -----------------------------------------------------*/
 
@@ -24,12 +23,10 @@ a {
         text-decoration: none;
     }
 
-
 /*Navbar background color*/
 .navbar {
     background-color: #2b2a2a;
 }
-
 
 /*NavBar header Name large text*/
 .parent {
@@ -39,7 +36,6 @@ a {
     letter-spacing: 2px;
     transform: scale(1.0)
 }
-
 
 /*NavBar header name description (i.e., software engineer, etc)*/
 .child {
@@ -99,7 +95,7 @@ a {
 }
 
 img {
-    max-width: 400px;
+    max-width: 40%;
     height: auto;
     border-radius: 80%;
 }
@@ -113,10 +109,9 @@ img {
     }
 
 .content {
+    width:100%;
     text-align: justify;
 }
-
-
 
 /* Contact page
 -----------------------------------------------------*/
@@ -146,11 +141,9 @@ img {
     padding-left: 10px;
 }
 
-
-/* Dynamic display of columns from 
+/* Dynamic display of columns from
     horizontal to vertical if width narrow.*/
 @media screen and (max-width: 600px) {
-
     .contact-left {
         width: 100%;
     }
@@ -168,13 +161,10 @@ img {
     padding-top: 0px;
 }
 
-
 .links { /*img links (LinkdIn, Github, etc.)*/
     font-size: 22px;
     /*    float:left;*/
 }
-
-
 
 /* Privacy Tab
 -----------------------------------------------------*/
@@ -196,7 +186,6 @@ img {
     width: 55%;
 }
 
-
 /* Sticky footer styles
 -----------------------------------------------------*/
 html {
@@ -204,7 +193,6 @@ html {
 }
 
 @media (min-width: 768px) {
-
     html {
         font-size: 22px;
     }
@@ -227,8 +215,7 @@ button.accept-policy {
     line-height: inherit;
 }
 
-
-/*General Body 
+/*General Body
 -----------------------------------------------------*/
 html {
     position: relative;

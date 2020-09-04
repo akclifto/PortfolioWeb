@@ -3,8 +3,3 @@
 
 // Write your Javascript code.
     //Script to collapse and open Home page sections.
-
-
-
-         
-
