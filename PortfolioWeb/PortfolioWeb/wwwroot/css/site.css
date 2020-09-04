@@ -96,14 +96,15 @@ a {
 
 .home-right {
     float: left;
+    position:relative;
     width: 40%;
     padding-left: 20px;
 }
 
 img {
-    max-width:600px;
+    max-width:400px;
     height:auto;
-    border-radius: 30%;
+    border-radius: 80%;
 }
 
 .learn-more {
@@ -115,8 +116,12 @@ img {
 }
 
 
-a.learn-more.nav-link:hover {
-    transform: skewX(-30deg);
+.education {
+
+}
+
+.content {
+    text-align:justify;
 }
 
 
