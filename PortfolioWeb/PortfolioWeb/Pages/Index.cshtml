@@ -1,14 +1,15 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Who Am I";
+    ViewData["Title"] = "Adam Clifton: Software Engineering";
 }
 
 <div class="container" style="padding-left:inherit">
 
-    <h1> @ViewData["Title"]</h1>
+    <h1> Who Am I</h1>
     <div class="home-row">
         <div class="home-left">
+
             <!--just resume dump for now-->
             I am an ambitious professional aspiring to develop a long-term career in the field of
             technology.  
@@ -38,11 +39,12 @@
             <img src="~/lib/572.jpeg" alt="pic of me"/> <!--test placeholder -->
             @*<img src="https://i.redd.it/xgorxiy1z4s11.png" />*@ <!--test placeholder -->
         </div>
-
     </div>
 
 </div>
 
+@* This entire container will need to change and become dynamic.
+    Hardcoding now just to have something. *@
 <div class="container" style="padding-left:inherit">
 
     <div class="education">
@@ -52,23 +54,46 @@
             at Arizona State University's Ira A. Fulton School of Engineering,
             and am on track to graduate May 2021.
         </div>
-        <div class="learn-more">
-            <a class="nav-link" asp-area="" asp-page="/Education">&lt...Learn More...&gt</a>
+    </div>
+    <div class="learn-more">
+        <a class="nav-link" asp-area="" asp-page="/Education">&lt...Learn More...&gt</a>
+    </div>
+
+    <div class="professional">
+        <h4>Professional Experience</h4>
+        <div class="content">
+            I worked in legal field at the United States Department of Justice
+            for 10 years in various capacities.  In January 2017, I began my journey to move
+            toward a career change into software engineering.
         </div>
     </div>
-        
-        <h4>
-            Professional Experience
-        </h4>
-        <h4>
-            Skillsets
-        </h4>
-        <h4>
-            Projects
-        </h4>
-        <h4>
-            Contact
-        </h4>
+    <div class="learn-more">
+        <a class="nav-link" asp-area="" asp-page="/Professional">&lt...Learn More...&gt</a>
+    </div>
+
+    <div class="skillset">
+        <div class="content">
+
+        </div>
+    </div>
+    <h4>
+        Skillsets
+    </h4>
+    <h4>
+        Projects
+    </h4>
+
+    <div class="contact">
+        <h4>Contact</h4>
+        <div class="content">
+            <a href="mailto:adamkclifton@gmail.com">Shoot me an email</a> or 
+            head over to the 
+            <span>
+                <a href="/Contact">Contact Page</a>
+            </span>
+            for Links and more information. 
+        </div>
+    </div>
 
 </div>
 
