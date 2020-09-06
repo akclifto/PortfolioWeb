@@ -110,12 +110,12 @@ a {
 /* Experience page
 -----------------------------------------------------*/
 
-.experience-body, .doj, .contractor {
+.experience-body{
     text-align:justify;
-
 }
 
 .doj {
+    text-align:justify;
     border-top: groove;
     border-bottom: groove;
 }
@@ -136,17 +136,18 @@ a {
 
 /* Education page
 -----------------------------------------------------*/
-.education-row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .education-left {
-    float: left;
-    width: 60%;
-    padding-bottom:0;
+    width: 100%;
     text-align: justify;
+
+}
+
+.edu-img {
+    border-bottom:groove;
+    border-top: groove;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 
