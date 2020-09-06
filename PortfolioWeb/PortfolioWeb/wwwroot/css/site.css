@@ -112,7 +112,26 @@ a {
 
 .experience-body, .doj, .contractor {
     text-align:justify;
+
 }
+
+.doj {
+    border-top: groove;
+    border-bottom: groove;
+}
+
+.contractor {
+    text-align: justify;
+    border-top: groove;
+    border-bottom: groove;
+}
+
+.pak {
+    text-align: justify;
+    border-top: groove;
+    border-bottom: groove;
+}
+
 
 
 /* Education page
