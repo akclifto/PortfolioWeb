@@ -8,7 +8,8 @@ function myfunction() {
 }
 
 /**
- * Animated Collapsible panels for Home page, slide down.
+ * Animated panels for Home page, slide down. This
+ * expands and collapes home screen section panels on click.
  */
 var coll = document.getElementsByClassName("panel");
 var i;
