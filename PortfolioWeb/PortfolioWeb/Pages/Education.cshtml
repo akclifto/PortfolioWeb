@@ -4,22 +4,31 @@
     ViewData["Title"] = "Education";
 }
 
-<h1>@ViewData["Title"]</h1>
 
-<div class=" container education">
+<div class=" container education" style="padding-left:inherit">
 
-    <div class=" education-row">
+    <h1>@ViewData["Title"]</h1>
+    <div class="education-body">
         I am currently enrolled at Arizona State University pursuing a <b>B.S. Software Engineering.</b>
-        <div class=" educaton-list">
-            <h5>University: Arizona State University</h5>
-            <h5>School: Ira A. Fulton Schools of Engineering</h5>
-            <h5>GPA: 3.82 out of a maximum of 4.0</h5>
-            <h5>Expected Graduation: May 2021</h5>
+
+        <br /><br />
+    </div>
+    <div class="education-row">
+
+        <div class="edu-img">
+            <img src="~/images/ASU Fulton Logo.png"
+                 style="border-radius:0%" />
+            <br />
         </div>
-        <div class="education-image">
-            <img src ="~/images/ASU Fulton Logo.png" 
-                 style="float:left; width:auto; padding-left:20px; position:relative"/>
+        <div class="education-left">
+            <ul style="padding-left:1em">
+                <li><b>School:</b> Ira A. Fulton Schools of Engineering</li>
+                <li><b>Degree:</b> Software Engineering</li>
+                <li><b>GPA:</b> 3.82 out of a maximum of 4.0</li>
+                <li><b>Expected Graduation:</b> May 2021.</li>
+            </ul>
         </div>
+
     </div>
 </div>
 
