@@ -31,7 +31,7 @@ function prepPanel(panelName) {
 }
 
 /**
- * Animate panel to smooth dropdown effect.
+ * Animate panel to dropdown effect. Smooth panel with css.
  * */
 function animatePanel() {
 

@@ -144,16 +144,18 @@ a {
     border-bottom: groove; 
 }
 
-.doj,  .contractor, .pak, .student {
-    text-align:justify;
+.doj, .contractor, .pak, .student {
+    text-align: justify;
     border-top: groove;
     border-bottom: groove;
     padding-bottom: 1em;
     padding-top: 1em;
+
 }
 
 .student {
     border-bottom: none;
+
 }
 
 
