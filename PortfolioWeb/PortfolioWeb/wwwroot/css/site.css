@@ -107,6 +107,35 @@ a {
     text-align: justify;
 }
 
+/*Animated panels of Home page*/
+.panel {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #e5e5e5;
+}
+
+    .active, .panel:hover {
+        background-color: #cbcbcb;
+    }
+
+    .panel:after {
+        color: whitesmoke;
+        float: right;
+        margin-left: 5px;
+    }
+
+.panel-container {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
 /* Experience page
 -----------------------------------------------------*/
 
@@ -144,6 +173,11 @@ a {
     padding-bottom: 1em;
     padding-top: 1em;
 }
+
+/* Projects page test**
+-----------------------------------------------------*/
+
+
 
 
 

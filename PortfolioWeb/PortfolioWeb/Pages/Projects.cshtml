@@ -7,14 +7,25 @@
 
 <div class="container projects" style="padding-left:inherit">
     <h1>@ViewData["Title"]</h1>
-     
-    <div class="">
-        <button class="list-group-item-dark" type="button" data-toggle="collapse"
-                data-target=".education-left"
-                aria-controls=".education-left" aria-expanded="false" aria-label="Toggler">
-                <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-    Landing page for projects.
 
+    <div class="test">
+        <input type="button" onclick="myfunction();" value="test button" />
+    </div>
+    <br /><br />
+
+    <div class="education-home">
+
+        <div class="panel">
+            <h4>Education</h4>
+        </div>
+        <div class="panel-container">
+            I am pursuing a Bachelor's of Science in Software Engineering
+            at Arizona State University's Ira A. Fulton Schools of Engineering,
+            and am on track to graduate May 2021.
+
+            <div class="learn-more">
+                <a class="nav-link" asp-area="" asp-page="/Education">&lt...Learn More...&gt</a>
+            </div>
+        </div>
+    </div>
 </div>
