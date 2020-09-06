@@ -167,6 +167,27 @@ a {
 
 }
 
+.edu-panel {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #e5e5e5;
+    background-image: linear-gradient(to right, whitesmoke, rgba(60, 179, 113, 0.05), whitesmoke);
+}
+
+    .edu-panel:hover {
+        /*background-color: rgba(60, 179, 113, 0.25);*/
+        background-color: #cbcbcb;
+    }
+
+    .edu-panel:after {
+        color: whitesmoke;
+        float: right;
+        margin-left: 5px;
+    }
+
 .edu-img {
     border-bottom:groove;
     border-top: groove;
