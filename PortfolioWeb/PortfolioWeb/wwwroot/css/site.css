@@ -111,25 +111,20 @@ a {
 -----------------------------------------------------*/
 
 .experience-body{
-    text-align:justify;
-}
-
-.doj {
-    text-align:justify;
-    border-top: groove;
-    border-bottom: groove;
-}
-
-.contractor {
     text-align: justify;
-    border-top: groove;
-    border-bottom: groove;
+    border-bottom: groove; 
 }
 
-.pak {
-    text-align: justify;
+.doj,  .contractor, .pak, .student {
+    text-align:justify;
     border-top: groove;
     border-bottom: groove;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.student {
+    border-bottom: none;
 }
 
 
