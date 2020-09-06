@@ -107,6 +107,14 @@ a {
     text-align: justify;
 }
 
+/* Experience page
+-----------------------------------------------------*/
+
+.experience-body, .doj, .contractor {
+    text-align:justify;
+}
+
+
 /* Education page
 -----------------------------------------------------*/
 .education-row:after {
@@ -122,12 +130,6 @@ a {
     text-align: justify;
 }
 
-.edu-img {
-    border-bottom:groove;
-    border-top:groove;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 
 
 /* Contact page
