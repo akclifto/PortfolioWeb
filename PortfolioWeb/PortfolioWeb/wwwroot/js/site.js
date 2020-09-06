@@ -11,11 +11,10 @@ function myfunction() {
  * Animated panels for Home page, slide down. This
  * expands and collapes home screen section panels on click.
  */
-var coll = document.getElementsByClassName("panel");
-var i;
+var panel = document.getElementsByClassName("panel");
 
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
+for (var i = 0; i < panel.length; i++) {
+    panel[i].addEventListener("click", function () {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.maxHeight) {
@@ -25,3 +24,20 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+
+
+
+function animatePanel(panelName) {
+
+    var panel = document.getElementsByClassName("panel");
+
+    panelName.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+    }
+}
+
+
