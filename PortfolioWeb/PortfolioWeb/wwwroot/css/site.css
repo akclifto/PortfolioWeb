@@ -103,7 +103,7 @@ a {
     }
 
 .content {
-    width:100%;
+    width: 100%;
     text-align: justify;
 }
 
@@ -139,9 +139,9 @@ a {
 /* Experience page
 -----------------------------------------------------*/
 
-.experience-body{
+.experience-body {
     text-align: justify;
-    border-bottom: groove; 
+    border-bottom: groove;
 }
 
 .doj, .contractor, .pak, .student {
@@ -150,15 +150,16 @@ a {
     border-bottom: groove;
     padding-bottom: 1em;
     padding-top: 1em;
-
 }
 
 .student {
     border-bottom: none;
-
 }
 
-
+.exp-position {
+    padding-right: 3px;
+    text-align: right;
+}
 
 /* Education page
 -----------------------------------------------------*/
@@ -166,7 +167,6 @@ a {
 .education-left {
     width: 100%;
     text-align: justify;
-
 }
 
 .edu-panel {
@@ -191,7 +191,7 @@ a {
     }
 
 .edu-img {
-    border-bottom:groove;
+    border-bottom: groove;
     border-top: groove;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -201,8 +201,35 @@ a {
 /* Projects page
 -----------------------------------------------------*/
 
+.project-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.project-left {
+    min-height:400px;
+    vertical-align: top;
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    text-align: justify;
+    border-top: groove;
+    border-bottom: groove;
+    background-color: yellow;
+}
 
+.project-right {
+    min-height: 400px;
+    vertical-align: top;
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    text-align: justify;
+    border-top: groove;
+    border-bottom: groove;
+    position: relative;
+}
 
 
 /* Contact page
@@ -236,6 +263,7 @@ a {
 /* Dynamic display of columns from
     horizontal to vertical if width narrow.*/
 @media screen and (max-width: 600px) {
+
     .contact-left {
         width: 100%;
     }
@@ -245,6 +273,14 @@ a {
     }
 
     .contact-right {
+        width: 100%;
+    }
+
+    .project-left {
+        width: 100%;
+    }
+
+    .project-right {
         width: 100%;
     }
 }
