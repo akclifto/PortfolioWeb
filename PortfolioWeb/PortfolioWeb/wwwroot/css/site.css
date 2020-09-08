@@ -30,21 +30,25 @@ a {
 
 /*NavBar header Name large text*/
 .parent {
+    min-width: 200px;
     font-size: 44px;
     font-family: 'Pragati Narrow', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
-    transform: scale(1.0)
+    transform: scale(1.05);
+    word-break: keep-all;
 }
 
 /*NavBar header name description (i.e., software engineer, etc)*/
 .child {
+    min-width: 200px;
     padding: 1px 1px 1px 1px;
     text-align: match-parent;
     font-family: 'Pragati Narrow', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-    transform: scale(1.0)
+    transform: scale(1.05);
+    word-break:keep-all;
 }
 
 .btn-primary {
