@@ -271,6 +271,8 @@ a {
     float: left;
     width: 50%;
     padding-left: 10px;
+    padding-top:inherit;
+    padding-bottom: 5px;
 }
 
 /* Dynamic display of columns from
