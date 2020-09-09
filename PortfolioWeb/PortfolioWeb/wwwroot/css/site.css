@@ -259,21 +259,21 @@ a {
 
 .contact-left {
     float: left;
-    width: 30%;
+    width: 27%;
     padding-right: 10px;
     text-align: justify;
 }
 
 .contact-middle {
     float: left;
-    width: 5%;
+    width: 7%;
     min-width: 20px;
     min-height: 20px;
 }
 
 .contact-right {
     float: left;
-    width: 65%;
+    width: 66%;
     padding-left: 10px;
     padding-top:inherit;
     padding-bottom: 5px;
