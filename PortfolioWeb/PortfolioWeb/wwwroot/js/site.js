@@ -1,14 +1,7 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
-// Write your Javascript code.
-    //test script
-function myfunction() {
-    alert("Helloo!");
-}
-
 /* Get the name of panels to animate*/
-
 //home page panels
 var panelName = document.getElementsByClassName("panel");
 prepPanel(panelName);
