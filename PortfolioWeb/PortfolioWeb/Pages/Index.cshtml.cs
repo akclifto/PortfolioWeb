@@ -12,7 +12,7 @@ namespace PortfolioWeb.Pages
         //create a JsonFileSectionService object
         public JsonFileSectionService SectionService;
         //put the object from the json file in a list.
-        public IEnumerable<Section> SectionList { get; private set; }
+        public IEnumerable<Section> Sections { get; private set; }
 
         public IndexModel(
             ILogger<IndexModel> logger,
@@ -24,7 +24,7 @@ namespace PortfolioWeb.Pages
 
         public void OnGet()
         {
-            SectionList = SectionService.GetSections();
+            Sections = SectionService.GetSections();
         }
     }
 }
