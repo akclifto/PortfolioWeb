@@ -12,11 +12,7 @@
 
             @foreach(var sect in Model.SectionList) {
 
-                if(sect.Id > 3)
-                {
-                    break;
-                }
-                else
+                if(sect.Title == "Who I Am")
                 {
                     @sect.Description
                     <br /><br />
@@ -26,7 +22,9 @@
         </div>
         <div class="home-right">
             <!--professional image to go here-->
-            <img src="~/images/573.jpeg" style="max-width:400px; height:auto; border-radius:30%" alt="pic of me" />
+            <img src="~/images/573.jpeg" 
+                 style="max-width:400px; height:auto; border-radius:30%" 
+                 alt="pic of me" />
         </div>
     </div>
 </div>
@@ -41,9 +39,15 @@
 
         </div>
         <div class="panel-container">
-            I am pursuing a Bachelor's of Science in Software Engineering
-            at Arizona State University's Ira A. Fulton Schools of Engineering,
-            and am on track to graduate May 2021.
+
+            @foreach(var sect in Model.SectionList)
+            {
+                if(sect.Title == "Education")
+                {
+                    @sect.Description
+                }
+            }
+
             <div class="learn-more">
                 <a class="nav-link" asp-area="" asp-page="/Education">&lt...Learn More...&gt</a>
             </div>
@@ -56,9 +60,15 @@
 
         </div>
         <div class="panel-container">
-            I worked in legal field at the United States Department of Justice
-            for 10 years in various capacities.  In January 2017, I began my journey to move
-            toward a career change into software engineering.
+
+            @foreach (var sect in Model.SectionList)
+            {
+                if (sect.Title == "Professional Experience")
+                {
+                    @sect.Description
+                }
+            }
+
             <div class="learn-more">
                 <a class="nav-link" asp-area="" asp-page="/Professional">&lt...Learn More...&gt</a>
             </div>
@@ -71,16 +81,16 @@
 
         </div>
         <div class="panel-container">
-            I have been developing and improving skills in programming logic, OOP, data structures and algorithms,
-            design process and patterns, structure implementation, adhering to SDLC and MVC principles,
-            software/system analysis, agile and scrum process flow, and quality assurance.
 
-            <br /><br />
-            I am continuing to use and gain proficiency in Java, C, C++, and C# languages, and use with
-            query languages in MySQL and Microsoft SQL Server. Moreover, I am working on growing my
-            proficiency integrating it all with Client-facing frameworks ASP.NET, XML, HTML,
-            and Javascript.
-            <br /><br />
+            @foreach (var sect in Model.SectionList)
+            {
+                if (sect.Title == "Skillsets")
+                {
+                    @sect.Description
+                    <br /><br />
+                }
+            }
+
         </div>
     </div>
 
@@ -89,9 +99,15 @@
             <h4>Projects</h4>
         </div>
         <div class="panel-container">
-            I have worked on a variety of school-related projects and 
-            personal projects to improve my development skills. 
-            In fact, you're looking at one of those projects now :)
+
+            @foreach (var sect in Model.SectionList)
+            {
+                if (sect.Title == "Projects")
+                {
+                    @sect.Description
+                }
+            }
+
             <div class="learn-more">
                 <a class="nav-link" asp-area="" asp-page="/Projects">&lt...Learn More...&gt</a>
             </div>

@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "Tab": "Index",
-    "Title": "Who Am I",
+    "Title": "Who I Am",
     "img": "~/images/573.jpeg",
     "Description": "Welcome to my web portfolio! My name is Adam Clifton. I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients.",
     "BulletList": []
@@ -10,7 +10,7 @@
   {
     "Id": 2,
     "Tab": "Index",
-    "Title": "Who Am I",
+    "Title": "Who I Am",
     "img": "~/images/573.jpeg",
     "Description": "I am a current student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance.",
     "BulletList": []
@@ -18,7 +18,7 @@
   {
     "Id": 3,
     "Tab": "Index",
-    "Title": "Who Am I",
+    "Title": "Who I Am",
     "img": "~/images/573.jpeg",
     "Description": "I have a sincere interest and passion for technology and am committed to expanding my knowledge and expertise in the ever-evolving field.",
     "BulletList": []
@@ -36,7 +36,7 @@
     "Tab": "Index",
     "Title": "Professional Experience",
     "img": null,
-    "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities. In January 2017, I began my journey to move toward a career change into software engineering.",
+    "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities.  In January 2017, I began my journey to move toward a career change into software engineering.",
     "BulletList": []
   },
   {
@@ -52,7 +52,7 @@
     "Tab": "Index",
     "Title": "Skillsets",
     "img": null,
-    "Description": "I have been developing and improving skills in programming logic, OOP, data structures and algorithms, design process and patterns, structure implementation, adhering to SDLC and MVC principles, software/system analysis, agile and scrum process flow, and quality assurance.",
+    "Description": "I am continuing to use and gain proficiency in Java, C, C++, and C# languages, and use with query languages in MySQL and Microsoft SQL Server. Moreover, I am working on growing my proficiency integrating it all with Client-facing frameworks ASP.NET, XML, HTML, and Javascript.",
     "BulletList": []
   },
   {
