@@ -6,32 +6,32 @@ namespace PortfolioWeb.Model
     public class Section
     {
         /// <summary>
-        /// Id: Numerical way to define section information within the web portfolio
+        /// A Numerical way to define section information within the web portfolio
         /// </summary>
         public int Id { get; set; }
 
         /// <summary>
-        /// Tab: The name of each specific tab relating to each
+        /// The name of each specific tab relating to each
         /// </summary>
         public string Tab { get; set; }
 
         /// <summary>
-        /// Title: The name of each section
+        /// The name of each section
         /// </summary>
         public string Title { get; set; }
 
         /// <summary>
-        /// Description: Corresponding body of text for each section title.
+        /// Corresponding body of text for each section title.
         /// </summary>
         public string Description { get; set; }
 
         /// <summary>
-        /// items specified in list, in form of array.
+        /// Items specified in list, in form of array.
         /// </summary>
         public string[] BulletList { get; set; }
 
         /// <summary>
-        /// Image: image uses for various sections in the portfolio.
+        /// Image used for various sections in the portfolio.
         /// Not every section will contain an image.
         /// </summary>
         [JsonPropertyName("img")]
