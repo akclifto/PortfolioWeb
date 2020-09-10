@@ -13,8 +13,8 @@
 
         @foreach(var sect in Model.SectionList)
         {
-            if(sect.Tab == "Experience" && 
-               sect.Title == "Professional Experience")
+            if(sect.Tab.Equals("Experience") && 
+               sect.Title.Equals("Professional Experience"))
             {
                 @sect.Description
             }
@@ -42,7 +42,7 @@
 
                 @foreach(var sect in Model.SectionList)
                 {
-                    if(sect.Title == "LeadLA")
+                    if(sect.Title.Equals("LeadLA"))
                     {
                         foreach(string s in sect.BulletList)
                         {
@@ -72,7 +72,7 @@
 
                 @foreach (var sect in Model.SectionList)
                 {
-                    if (sect.Title == "Paralegal")
+                    if (sect.Title.Equals("Paralegal"))
                     {
                         foreach (string s in sect.BulletList)
                         {
@@ -103,7 +103,7 @@
 
                 @foreach (var sect in Model.SectionList)
                 {
-                    if (sect.Title == "Paralegal")
+                    if (sect.Title.Equals("ContLA"))
                     {
                         foreach (string s in sect.BulletList)
                         {
@@ -133,7 +133,7 @@
 
                 @foreach (var sect in Model.SectionList)
                 {
-                    if (sect.Title == "Paralegal")
+                    if (sect.Title.Equals("Student"))
                     {
                         foreach (string s in sect.BulletList)
                         {

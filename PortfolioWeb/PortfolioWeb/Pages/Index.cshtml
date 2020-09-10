@@ -12,7 +12,7 @@
 
             @foreach(var sect in Model.SectionList) {
 
-                if(sect.Title == "Who I Am")
+                if(sect.Title.Equals("Who I Am"))
                 {
                     @sect.Description
                     <br /><br />
@@ -42,8 +42,8 @@
 
             @foreach(var sect in Model.SectionList)
             {
-                if(sect.Tab == "Index" && 
-                   sect.Title == "Education")
+                if(sect.Tab.Equals("Index") && 
+                   sect.Title.Equals("Education"))
                 {
                     @sect.Description
                 }
@@ -64,8 +64,8 @@
 
             @foreach (var sect in Model.SectionList)
             {
-                if (sect.Tab == "Index" && 
-                    sect.Title == "Professional Experience")
+                if (sect.Tab.Equals("Index") && 
+                    sect.Title.Equals("Professional Experience"))
                 {
                     @sect.Description
                 }
@@ -86,7 +86,7 @@
 
             @foreach (var sect in Model.SectionList)
             {
-                if (sect.Title == "Skillsets")
+                if (sect.Title.Equals("Skillsets"))
                 {
                     @sect.Description
                     <br /><br />
@@ -104,8 +104,8 @@
 
             @foreach (var sect in Model.SectionList)
             {
-                if (sect.Tab == "Index" &&
-                    sect.Title == "Projects")
+                if (sect.Tab.Equals("Index") &&
+                    sect.Title.Equals("Projects"))
                 {
                     @sect.Description
                 }
