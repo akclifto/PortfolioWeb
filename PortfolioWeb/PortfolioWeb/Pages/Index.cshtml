@@ -42,7 +42,8 @@
 
             @foreach(var sect in Model.SectionList)
             {
-                if(sect.Title == "Education")
+                if(sect.Tab == "Index" && 
+                   sect.Title == "Education")
                 {
                     @sect.Description
                 }
@@ -63,7 +64,8 @@
 
             @foreach (var sect in Model.SectionList)
             {
-                if (sect.Title == "Professional Experience")
+                if (sect.Tab == "Index" && 
+                    sect.Title == "Professional Experience")
                 {
                     @sect.Description
                 }
@@ -102,7 +104,8 @@
 
             @foreach (var sect in Model.SectionList)
             {
-                if (sect.Title == "Projects")
+                if (sect.Tab == "Index" &&
+                    sect.Title == "Projects")
                 {
                     @sect.Description
                 }

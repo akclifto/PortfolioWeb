@@ -9,14 +9,17 @@
 
     <h1>@ViewData["Title"]</h1>
 
-
     <div class="experience-body">
-        I have gained experience learning from and interacting with other
-        professionals in the legal field for 10 years.  Here, I learned valuable
-        skills in terms of time and resource management, education and training,
-        communication, and troubleshooting techniques.
-        I am now pursuing the next adventure and challenge in my
-        professional career in the field of technology and software.
+
+        @foreach(var sect in Model.SectionList)
+        {
+            if(sect.Tab == "Experience" && 
+               sect.Title == "Professional Experience")
+            {
+                @sect.Description
+            }
+        }
+
         <br /><br />
         <a href="~/data/Clifton_Adam_2020_Resume Prof (post-USAO) forWeb.pdf" target="_blank" rel="noopener noreferrer">
             View a printable version of my resume.</a>
@@ -35,11 +38,19 @@
                 <li><b>Full-time: </b>40 Hours per Week</li>
                 <li><b>Duties:</b></li>
             </ul>
-            @* just dump for now, will fix up later. *@
             <ul style="text-align:justify">
-                <li>Provide direct administrative and legal support services for attorneys and support staff in the fast-paced criminal division. Examine and prepare: technical legal documents, trial preparation and execution, maintain supplies and equipment, records, office hardware and software, and conduct office automation.</li>
-                <li>Maintain projects and analyze electronic databases and directories: CaseMap, LIONS, CaseView, Microsoft Access, Microsoft SharePoint, IPRO, and Microsoft Excel.  Well-versed in Microsoft Office and Adobe Acrobat Professional. Assist in special work projects: bolster software technology improvements including the facilitation of USAfx, a cloud-sharing service. Provide advice and assistance on processing methods and improvements, file design, organization, access methods, security requirement, and associated software and utility programs.  </li>
-                <li>Exercise sound, working knowledge of unit priorities, goals and objectives, and work across boundaries to cooperate with team members, clients, managers, groups, and organizations to achieve objectives.  Perform hardware and software installation and maintenance and provide user support of known hardware and software systems, diagnose and resolve problems in response to reported co-worker or attorney incidents.</li>
+
+                @foreach(var sect in Model.SectionList)
+                {
+                    if(sect.Title == "LeadLA")
+                    {
+                        foreach(string s in sect.BulletList)
+                        {
+                            <li>@s</li>
+                        }
+                    }
+                }
+
             </ul>
         </div>
     </div>
@@ -58,9 +69,18 @@
             </ul>
 
             <ul style="text-align:justify">
-                <li>Provide technical, advisory and support assistance to four staff attorneys whose caseload included personal injury, bankruptcy, insurance claims, and real estate.  Examine and prepare legal documents: settlement agreements, plea agreements, demand letters, exhibit assembly, affidavits, motions, discovery, lien reductions and correspondence. Handle all support services: calendaring, docketing, filing, case, communications services and changes, teleconferencing, and provide support in information management and maintaining network architecture and infrastructure.  </li>
-                <li>Manage all office equipment, including installing, configuring, troubleshooting, and maintaining customer hardware and software, and resolving any hardware/software interface and interoperability problems.  Assist in monitoring functionality, security, and integrity of internet services.  </li>
-                <li>Creation and management of in-house database for case information:  two-hundred fifty (250) active cases.  Implement policies and procedures to ensure information system reliability. Direct interaction with clients, opposing counsel, medical providers, claims examiners and agents, expert and lay witnesses.</li>
+
+                @foreach (var sect in Model.SectionList)
+                {
+                    if (sect.Title == "Paralegal")
+                    {
+                        foreach (string s in sect.BulletList)
+                        {
+                            <li>@s</li>
+                        }
+                    }
+                }
+
             </ul>
         </div>
     </div>
@@ -80,9 +100,17 @@
             </ul>
 
             <ul style="text-align:justify">
-                <li>Provide administrative and legal support services for attorneys and support staff in the civil division at the United States Attorney’s Office in areas which include medical malpractice, defensive tort actions, bankruptcy and affirmative civil enforcement. Handle mail, records, travel, technology software and hardware assistance, communication services, and conference calls.</li>
-                <li>Analyze and organize large discovery projects, medical releases and subpoenas, and a wide variety of legal pleadings and documents. Research with a variety of legal sources: Westlaw, Lexis-Nexis, public records, court records, profile background checks.  </li>
-                <li>Develop guides: IPRO E-Scan-IT and IPRO Viewer for internal use.  </li>
+
+                @foreach (var sect in Model.SectionList)
+                {
+                    if (sect.Title == "Paralegal")
+                    {
+                        foreach (string s in sect.BulletList)
+                        {
+                            <li>@s</li>
+                        }
+                    }
+                }
 
             </ul>
         </div>
@@ -102,9 +130,18 @@
             </ul>
 
             <ul style="text-align:justify">
-                <li>Provide administrative and support services for up to 15 attorneys and nine support staff.</li>
-                <li>Office automation: technology hardware, software, and equipment, Microsoft Office, mail production, reproduction, records, and communication software services for reception.</li>
-                <li>Administrative support activities: clerical tasks, office inventory management, reorganization, space management, case information management, and courier services.</li>
+
+                @foreach (var sect in Model.SectionList)
+                {
+                    if (sect.Title == "Paralegal")
+                    {
+                        foreach (string s in sect.BulletList)
+                        {
+                            <li>@s</li>
+                        }
+                    }
+                }
+
             </ul>
         </div>
     </div>
