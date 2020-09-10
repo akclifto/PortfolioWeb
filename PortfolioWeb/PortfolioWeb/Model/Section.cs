@@ -8,7 +8,7 @@ namespace PortfolioWeb.Model
         /// <summary>
         /// Id: Numerical way to define section information within the web portfolio
         /// </summary>
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Tab: The name of each specific tab relating to each
@@ -34,7 +34,7 @@ namespace PortfolioWeb.Model
         /// Image: image uses for various sections in the portfolio.
         /// Not every section will contain an image.
         /// </summary>
-        [JsonPropertyName("Img")]
+        [JsonPropertyName("img")]
         public string Image { get; set; }
 
         /// <summary>
