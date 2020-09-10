@@ -26,10 +26,15 @@ namespace PortfolioWeb.Model
         public string Description { get; set; }
 
         /// <summary>
+        /// items specified in list, in form of array.
+        /// </summary>
+        public string[] BulletList { get; set; }
+
+        /// <summary>
         /// Image: image uses for various sections in the portfolio.
         /// Not every section will contain an image.
         /// </summary>
-        [JsonPropertyName("img")]
+        [JsonPropertyName("Img")]
         public string Image { get; set; }
 
         /// <summary>

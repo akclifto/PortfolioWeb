@@ -4,48 +4,63 @@
     "Tab": "Index",
     "Title": "Who Am I",
     "img": "~/lib/572.jpeg",
-    "Description": "I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients."
+    "Description": "Welcome to my web portfolio! My name is Adam Clifton. I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients.",
+    "BulletList": []
   },
   {
     "Id": "0002",
     "Tab": "Index",
     "Title": "Who Am I",
-    "img": "~/lib/572.jpeg",
-    "Description": "I am a current student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance."
+    "Img": "~/lib/572.jpeg",
+    "Description": "I am a current student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance.",
+    "BulletList": []
   },
   {
     "Id": "0003",
     "Tab": "Index",
     "Title": "Who Am I",
     "img": "~/lib/572.jpeg",
-    "Description": "I have a sincere interest and passion for technology and am committed to expanding my knowledge and expertise in the ever-evolving field."
+    "Description": "I have a sincere interest and passion for technology and am committed to expanding my knowledge and expertise in the ever-evolving field.",
+    "BulletList": []
   },
   {
     "Id": "0004",
     "Tab": "Index",
     "Title": "Education",
     "img": null,
-    "Description": null
+    "Description": "I am pursuing a Bachelor's of Science in Software Engineering at Arizona State University's Ira A. Fulton Schools of Engineering, and am on track to graduate May 2021.",
+    "BulletList": []
   },
   {
     "Id": "0005",
     "Tab": "Index",
     "Title": "Professional Experience",
     "img": null,
-    "Description": null
+    "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities. In January 2017, I began my journey to move toward a career change into software engineering.",
+    "BulletList": []
   },
   {
     "Id": "0006",
     "Tab": "Index",
     "Title": "Skillsets",
     "img": null,
-    "Description": null
+    "Description": "I have been developing and improving skills in programming logic, OOP, data structures and algorithms, design process and patterns, structure implementation, adhering to SDLC and MVC principles, software/system analysis, agile and scrum process flow, and quality assurance.",
+    "BulletList": []
   },
   {
     "Id": "0007",
     "Tab": "Index",
+    "Title": "Skillsets",
+    "img": null,
+    "Description": "I have been developing and improving skills in programming logic, OOP, data structures and algorithms, design process and patterns, structure implementation, adhering to SDLC and MVC principles, software/system analysis, agile and scrum process flow, and quality assurance.",
+    "BulletList": []
+  },
+  {
+    "Id": "0008",
+    "Tab": "Index",
     "Title": "Projects",
     "img": null,
-    "Description": null
+    "Description": "I have worked on a variety of school-related projects and personal projects to improve my development skills. In fact, you're looking at one of those projects now :)",
+    "BulletList": []
   }
 ]

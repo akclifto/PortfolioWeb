@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using PortfolioWeb.Model;
 
 namespace PortfolioWeb.Pages
 {
