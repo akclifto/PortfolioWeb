@@ -41,14 +41,12 @@ namespace PortfolioWeb.Services
         /// <returns>Section information</returns>
         public IEnumerable<Section> GetSections()
         {
-            using (var JsonFileReader = File.OpenText(JsonFileName))
-            {
-                return JsonSerializer.Deserialize<Section[]>(JsonFileReader.ReadToEnd(),
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
-            }
+            using var JsonFileReader = File.OpenText(JsonFileName);
+            return JsonSerializer.Deserialize<Section[]>(JsonFileReader.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
         }
     }
 }
