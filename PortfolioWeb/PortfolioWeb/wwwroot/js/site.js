@@ -3,7 +3,6 @@
 
 (function () {
 /* Get the name of panels to animate*/
-
     //home page panels
     var panelName = document.getElementsByClassName("panel");
     prepPanel(panelName);

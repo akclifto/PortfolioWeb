@@ -169,7 +169,7 @@
   {
     "Id": 18,
     "Tab": "Projects",
-    "Title": "dmp-left",
+    "Title": "dmp-right",
     "img": null,
     "Description": "",
     "BulletList": [
@@ -244,15 +244,24 @@
     "Title": "manfui-left",
     "img": null,
     "Description": "",
-    "BulletList": []
+    "BulletList": [
+      "Implements and mock manufacturing UI and system file tree",
+      "Purpose: Learn the basics of WPF and Xamarin XAML to create UI applications",
+      "Implemented with C#, WPF and Xamarin"
+    ]
   },
   {
     "Id": 24,
     "Tab": "Projects",
-    "Title": "mafnui-right",
+    "Title": "manfui-right",
     "img": null,
     "Description": "",
-    "BulletList": []
+    "BulletList": [
+      "Development with C#",
+      "Development with WPF, and XAML",
+      "Fundmental use of MVC to ensure proper separation",
+      "Static and Dynamic UI creation with XAML binding"
+    ]
   }
 
 
