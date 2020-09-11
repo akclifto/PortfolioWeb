@@ -118,6 +118,141 @@
       "Office automation: technology hardware, software, and equipment, Microsoft Office, mail production, reproduction, records, and communication software services for reception.",
       "Administrative support activities: clerical tasks, office inventory management, reorganization, space management, case information management, and courier services."
     ]
+  },
+  {
+    "Id": 14,
+    "Tab": "Projects",
+    "Title": "Projects-Body",
+    "img": null,
+    "Description": "Coursework from ASU and personal projects have allowed me to develop skills in diverse areas with a variety of design techniques. Below are some notable projects and skills acquired:",
+    "BulletList": []
+  },
+  {
+    "Id": 15,
+    "Tab": "Projects",
+    "Title": "webp-left",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "A web-based portfolio to highlight resume and skill attributes",
+      "Purpose: Build an online portfolio with common web development tools and languages",
+      "Implements a website designed and built by me with ASP.NET"
+    ]
+  },
+  {
+    "Id": 16,
+    "Tab": "Projects",
+    "Title": "webp-right",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Fundamentals and development with ASP.NET",
+      "Development with HTML and CSS",
+      "Development with Javascript",
+      "Fundamental use of MVC",
+      "C# and .NET integration with web-based applications",
+      "Strengthened source control use with Git and Github"
+    ]
+  },
+  {
+    "Id": 17,
+    "Tab": "Projects",
+    "Title": "dmp-left",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "A distributed media player with Java and C++",
+      "Purpose: Develop a distributed application with proper separation of client and server",
+      "Implements a GUI using server/ client remote proctor service"
+    ]
+  },
+  {
+    "Id": 18,
+    "Tab": "Projects",
+    "Title": "dmp-left",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Strengthened development with Java OOP",
+      "Development with Sockets, Threads, and Protocols",
+      "Skeleton/ stub creation for client/ server",
+      "Development with C++",
+      "Development with JSON and XML for storage and build files",
+      "Building JSON serializer/ deserializer in Java and C++",
+      "Development using Debian/ Ubuntu Linux environment",
+      "Use of tools such as curlpp and ant",
+      "Third-Party API integration: OMDb API"
+    ]
+  },
+  {
+    "Id": 19,
+    "Tab": "Projects",
+    "Title": "das-left",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Implements a console database application with SQL and Java",
+      "Purpose: Develop skills with SQL and integration with common OOP language client",
+      "Team-Based, Agile/SCRUM process flow"
+    ]
+  },
+  {
+    "Id": 20,
+    "Tab": "Projects",
+    "Title": "das-right",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Strengthened development with Java OOP",
+      "Development with SQL, using MySQL command line client",
+      "Integration tools: JDBC and MySql Connector",
+      "Design modelling with UML, EER and Relational diagrams",
+      "Script implementation to instantiate and populate databases",
+      "Use of common sequal command queries (select, update, drop table, create table, insert into, alter table, join variations, count, etc.)"
+    ]
+  },
+  {
+    "Id": 21,
+    "Tab": "Projects",
+    "Title": "dps-left",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Implements an console-based simulated scenario where heroes and villains fight it out for world domination",
+      "Purpose: Use design patterns with proper separation and testing",
+      "Gang of Four Design (GoF) Patterns with Java"
+    ]
+  },
+  {
+    "Id": 22,
+    "Tab": "Projects",
+    "Title": "dps-right",
+    "img": null,
+    "Description": "",
+    "BulletList": [
+      "Strengthened development with Java OOP",
+      "Development with GoF design patterns: decorator, factory and mediator",
+      "Integration tool: Gradle",
+      "Unit Testing tools: JUnit (path/ branch coverage), TravisCI, Checkstyle, and Spotbugs",
+      "Code review techniques: static analysis, white/ black-box unit testing",
+      "Design modelling with UML"
+    ]
+  },
+  {
+    "Id": 23,
+    "Tab": "Projects",
+    "Title": "manfui-left",
+    "img": null,
+    "Description": "",
+    "BulletList": []
+  },
+  {
+    "Id": 24,
+    "Tab": "Projects",
+    "Title": "mafnui-right",
+    "img": null,
+    "Description": "",
+    "BulletList": []
   }
 
 

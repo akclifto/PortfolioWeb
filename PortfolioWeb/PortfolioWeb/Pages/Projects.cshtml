@@ -9,8 +9,15 @@
 
     <div style="text-align:justify">
         <h1>@ViewData["Title"]</h1>
-        Coursework from ASU and personal projects have allowed me to develop skills in diverse areas
-        with a variety of design techniques. Below are some notable projects and skills acquired:
+        
+        @foreach(var sect in Model.SectionList)
+        {
+            if(sect.Title.Equals("Projects-Body"))
+            {
+                @sect.Description
+            }
+        }
+
         <br /><br />
     </div>
 
@@ -44,9 +51,18 @@
 
                 <div class="project-left">
                     <ul class="project-list">
-                        <li>A web-based portfolio to highlight resume and skill attributes.</li>
-                        <li>Purpose: Build an online portfolio with common web development tools and languages.</li>
-                        <li>Implements a website designed and built by me with ASP.NET</li>
+
+                        @foreach(var sect in Model.SectionList)
+                        {
+                            if (sect.Title.Equals("webp-left"))
+                            {
+                                foreach(string s in sect.BulletList)
+                                {
+                                    <li>@s</li>
+                                }
+                            }
+                        }
+
                         <li>
                             <a href="https://github.com/akclifto/PortfolioWeb" target="_blank" rel="noopener noreferrer">
                                 Link to Github source code.
@@ -56,12 +72,18 @@
                 </div>
                 <div class="project-right">
                     <ul class="project-list">
-                        <li>Fundamentals and development with ASP.NET</li>
-                        <li>Development with HTML and CSS</li>
-                        <li>Development with Javascript</li>
-                        <li>Fundamental use of MVC</li>
-                        <li>C# and .NET integration with web-based applications</li>
-                        <li>Strengthened source control use with Git and Github</li>
+
+                        @foreach (var sect in Model.SectionList)
+                        {
+                            if (sect.Title.Equals("webp-right"))
+                            {
+                                foreach (string s in sect.BulletList)
+                                {
+                                    <li>@s</li>
+                                }
+                            }
+                        }
+
                     </ul>
                 </div>
             </div>
