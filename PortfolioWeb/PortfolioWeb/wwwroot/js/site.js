@@ -7,8 +7,8 @@
     var panelName = document.getElementsByClassName("panel");
     prepPanel(panelName);
     //education page panels
-    panelName = document.getElementsByClassName("edu-panel");
-    prepPanel(panelName);
+    //panelName = document.getElementsByClassName("edu-panel");
+    //prepPanel(panelName);
 
     /**
      * Iterate through panel elements by class name and add 
