@@ -31,13 +31,6 @@ namespace PortfolioWeb.Model
         public string[] BulletList { get; set; }
 
         /// <summary>
-        /// Image used for various sections in the portfolio.
-        /// Not every section will contain an image.
-        /// </summary>
-        [JsonPropertyName("img")]
-        public string Image { get; set; }
-
-        /// <summary>
         /// Override ToString: to serialize a JSON file.
         /// </summary>
         /// <returns>Serialized string of Section information.</returns>

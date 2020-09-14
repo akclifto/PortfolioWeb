@@ -3,7 +3,6 @@
     "Id": 1,
     "Tab": "Index",
     "Title": "Who I Am",
-    "img": "~/images/573.jpeg",
     "Description": "Welcome to my web portfolio! My name is Adam Clifton. I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients.",
     "BulletList": []
   },
@@ -11,15 +10,13 @@
     "Id": 2,
     "Tab": "Index",
     "Title": "Who I Am",
-    "img": "~/images/573.jpeg",
-    "Description": "I am a current student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance.",
+    "Description": "I am currently a student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance.",
     "BulletList": []
   },
   {
     "Id": 3,
     "Tab": "Index",
     "Title": "Who I Am",
-    "img": "~/images/573.jpeg",
     "Description": "I have a sincere interest and passion for technology and am committed to expanding my knowledge and expertise in the ever-evolving field.",
     "BulletList": []
   },
@@ -27,7 +24,6 @@
     "Id": 4,
     "Tab": "Index",
     "Title": "Education",
-    "img": null,
     "Description": "I am pursuing a Bachelor's of Science in Software Engineering at Arizona State University's Ira A. Fulton Schools of Engineering, and am on track to graduate May 2021.",
     "BulletList": []
   },
@@ -35,7 +31,6 @@
     "Id": 5,
     "Tab": "Index",
     "Title": "Professional Experience",
-    "img": null,
     "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities.  In January 2017, I began my journey to move toward a career change into software engineering.",
     "BulletList": []
   },
@@ -43,7 +38,6 @@
     "Id": 6,
     "Tab": "Index",
     "Title": "Skillsets",
-    "img": null,
     "Description": "I have been developing and improving skills in programming logic, OOP, data structures and algorithms, design process and patterns, structure implementation, adhering to SDLC and MVC principles, software/system analysis, agile and scrum process flow, and quality assurance.",
     "BulletList": []
   },
@@ -51,7 +45,6 @@
     "Id": 7,
     "Tab": "Index",
     "Title": "Skillsets",
-    "img": null,
     "Description": "I am continuing to use and gain proficiency in Java, C, C++, and C# languages, and use with query languages in MySQL and Microsoft SQL Server. Moreover, I am working on growing my proficiency integrating it all with Client-facing frameworks ASP.NET, XML, HTML, and Javascript.",
     "BulletList": []
   },
@@ -59,7 +52,6 @@
     "Id": 8,
     "Tab": "Index",
     "Title": "Projects",
-    "img": null,
     "Description": "I have worked on a variety of school-related projects and personal projects to improve my development skills. In fact, you're looking at one of those projects now :)",
     "BulletList": []
   },
@@ -67,7 +59,6 @@
     "Id": 9,
     "Tab": "Experience",
     "Title": "Professional Experience",
-    "img": null,
     "Description": "I have gained experience learning from and interacting with other professionals in the legal field for 10 years.  Here, I learned valuable skills in terms of time and resource management, education and training, communication, and troubleshooting techniques. I am now pursuing the next adventure and challenge in my professional career in the field of technology and software.",
     "BulletList": []
   },
@@ -87,7 +78,6 @@
     "Id": 11,
     "Tab": "Experience",
     "Title": "Paralegal",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Creation and management of in-house database for case information:  two-hundred fifty (250) active cases.  Implement policies and procedures to ensure information system reliability. Coordinate with clients, opposing counsel, medical providers, claims examiners and agents, expert, and lay witnesses.",
@@ -99,7 +89,6 @@
     "Id": 12,
     "Tab": "Experience",
     "Title": "ContLA",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Provide legal administrative services for attorneys and support staff in the civil division at the United States Attorney's Office in areas of medical malpractice, defensive torts, bankruptcy, and affirmative civil enforcement. Handle office automation and technology software and hardware assistance.",
@@ -111,7 +100,6 @@
     "Id": 13,
     "Tab": "Experience",
     "Title": "Student",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Provide support services for up to 15 attorneys and nine support staff.",
@@ -123,7 +111,6 @@
     "Id": 14,
     "Tab": "Projects",
     "Title": "Projects-Body",
-    "img": null,
     "Description": "Coursework from ASU and personal projects have allowed me to develop skills in diverse areas with a variety of design techniques. Below are some notable projects and skills acquired:",
     "BulletList": []
   },
@@ -131,7 +118,6 @@
     "Id": 15,
     "Tab": "Projects",
     "Title": "webp-left",
-    "img": null,
     "Description": "",
     "BulletList": [
       "A web-based portfolio to highlight resume and skill attributes",
@@ -143,7 +129,6 @@
     "Id": 16,
     "Tab": "Projects",
     "Title": "webp-right",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Fundamentals and development with ASP.NET",
@@ -158,7 +143,6 @@
     "Id": 17,
     "Tab": "Projects",
     "Title": "dmp-left",
-    "img": null,
     "Description": "",
     "BulletList": [
       "A distributed media player with Java and C++",
@@ -170,7 +154,6 @@
     "Id": 18,
     "Tab": "Projects",
     "Title": "dmp-right",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Strengthened development with Java OOP",
@@ -188,7 +171,6 @@
     "Id": 19,
     "Tab": "Projects",
     "Title": "das-left",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Implements a console database application with SQL and Java",
@@ -200,7 +182,6 @@
     "Id": 20,
     "Tab": "Projects",
     "Title": "das-right",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Strengthened development with Java OOP",
@@ -215,7 +196,6 @@
     "Id": 21,
     "Tab": "Projects",
     "Title": "dps-left",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Implements an console-based simulated scenario where heroes and villains fight it out for world domination",
@@ -227,7 +207,6 @@
     "Id": 22,
     "Tab": "Projects",
     "Title": "dps-right",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Strengthened development with Java OOP",
@@ -242,7 +221,6 @@
     "Id": 23,
     "Tab": "Projects",
     "Title": "manfui-left",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Implements and mock manufacturing UI and system file tree",
@@ -254,7 +232,6 @@
     "Id": 24,
     "Tab": "Projects",
     "Title": "manfui-right",
-    "img": null,
     "Description": "",
     "BulletList": [
       "Development with C#",
