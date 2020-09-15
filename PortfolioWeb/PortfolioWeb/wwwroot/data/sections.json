@@ -3,67 +3,53 @@
     "Id": 1,
     "Tab": "Index",
     "Title": "Who I Am",
-    "Description": "Welcome to my web portfolio! My name is Adam Clifton. I am an ambitious professional aspiring to develop a long-term career in the field of technology. I have the proven ability to work well under pressure, independently or as part of a team. I communicate effectively and personably with both coworkers and clients.",
+    "Description": "Welcome to my web portfolio! My name is Adam Clifton. I started building personal computers in 2013 and realized not only do I have an interest in computing, technology, and software, but I also have a knack for it.",
+    "BulletList": []
+  },
+  {
+    "Id": 22,
+    "Tab": "Index",
+    "Title": "Who I Am",
+    "Description": "Despite a successful and rewarding 10 years as a legal professional at the United States Attorney's Office, in January 2017, I decided to pursue a degree and career in Software Engineering. I am currently in my Senior Year at Arizona State University's Ira A. Fulton School of Engineering. I am on track to graduate with a Bachelor of Science in Software Engineering in May 2021.",
     "BulletList": []
   },
   {
     "Id": 2,
-    "Tab": "Index",
-    "Title": "Who I Am",
-    "Description": "I am currently a student at Arizona State University developing software engineering skills, and I continue to build on my knowledge of programming logic, design process and patterns, structure implementation, software/system analysis, agile and scrum workflow, and quality assurance.",
-    "BulletList": []
-  },
-  {
-    "Id": 3,
-    "Tab": "Index",
-    "Title": "Who I Am",
-    "Description": "I have a sincere interest and passion for technology and am committed to expanding my knowledge and expertise in the ever-evolving field.",
-    "BulletList": []
-  },
-  {
-    "Id": 4,
     "Tab": "Index",
     "Title": "Education",
     "Description": "I am pursuing a Bachelor's of Science in Software Engineering at Arizona State University's Ira A. Fulton Schools of Engineering, and am on track to graduate May 2021.",
     "BulletList": []
   },
   {
-    "Id": 5,
+    "Id": 3,
     "Tab": "Index",
     "Title": "Professional Experience",
-    "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities.  In January 2017, I began my journey to move toward a career change into software engineering.",
+    "Description": "Working for the U.S. Attorney's Office, I developed a solid work ethic. I gained skills in time management, communication, and helped streamline processes. I received on-the-job training in and worked regularly with various software and systems. I have been told I am hard-working, teachable, and innovative. I am innately curious in learning how things work, and like to find new, more efficient ways of doing things. This is part of why I turned to a career in the ever-evolving field of software engineering.",
     "BulletList": []
   },
   {
-    "Id": 6,
+    "Id": 4,
     "Tab": "Index",
     "Title": "Skillsets",
-    "Description": "I have been developing and improving skills in programming logic, OOP, data structures and algorithms, design process and patterns, structure implementation, adhering to SDLC and MVC principles, software/system analysis, agile and scrum process flow, and quality assurance.",
+    "Description": "As a Software Engineering student at ASU, I gained significant knowledge and practical skills in programming logic, design processes and patterns, structure implementation, adhering to SDLC and MVC principles, software/ system analysis, Agile and SCRUM workflow, unit testing, and quality assurance. I am proficient in Java, C, C++, and C# languages, as well as SQL. Moreover, I am learning how to integrate it all with client-facing frameworks like ASP.NET, JavaScript, and HTML.",
     "BulletList": []
   },
   {
-    "Id": 7,
-    "Tab": "Index",
-    "Title": "Skillsets",
-    "Description": "I am continuing to use and gain proficiency in Java, C, C++, and C# languages, and use with query languages in MySQL and Microsoft SQL Server. Moreover, I am working on growing my proficiency integrating it all with Client-facing frameworks ASP.NET, XML, HTML, and Javascript.",
-    "BulletList": []
-  },
-  {
-    "Id": 8,
+    "Id": 5,
     "Tab": "Index",
     "Title": "Projects",
     "Description": "I have worked on a variety of school-related projects and personal projects to improve my development skills. In fact, you're looking at one of those projects now :)",
     "BulletList": []
   },
   {
-    "Id": 9,
+    "Id": 6,
     "Tab": "Experience",
     "Title": "Professional Experience",
-    "Description": "I have gained experience learning from and interacting with other professionals in the legal field for 10 years.  Here, I learned valuable skills in terms of time and resource management, education and training, communication, and troubleshooting techniques. I am now pursuing the next adventure and challenge in my professional career in the field of technology and software.",
+    "Description": "I worked in legal field at the United States Department of Justice for 10 years in various capacities. In January 2017, I began my journey to move toward a career change into software engineering.",
     "BulletList": []
   },
   {
-    "Id": 10,
+    "Id": 7,
     "Tab": "Experience",
     "Title": "LeadLA",
     "img": null,
@@ -75,7 +61,7 @@
     ]
   },
   {
-    "Id": 11,
+    "Id": 8,
     "Tab": "Experience",
     "Title": "Paralegal",
     "Description": "",
@@ -86,7 +72,7 @@
     ]
   },
   {
-    "Id": 12,
+    "Id": 9,
     "Tab": "Experience",
     "Title": "ContLA",
     "Description": "",
@@ -97,7 +83,7 @@
     ]
   },
   {
-    "Id": 13,
+    "Id": 10,
     "Tab": "Experience",
     "Title": "Student",
     "Description": "",
@@ -108,14 +94,14 @@
     ]
   },
   {
-    "Id": 14,
+    "Id": 11,
     "Tab": "Projects",
     "Title": "Projects-Body",
     "Description": "Coursework from ASU and personal projects have allowed me to develop skills in diverse areas with a variety of design techniques. Below are some notable projects and skills acquired:",
     "BulletList": []
   },
   {
-    "Id": 15,
+    "Id": 12,
     "Tab": "Projects",
     "Title": "webp-left",
     "Description": "",
@@ -126,7 +112,7 @@
     ]
   },
   {
-    "Id": 16,
+    "Id": 13,
     "Tab": "Projects",
     "Title": "webp-right",
     "Description": "",
@@ -140,7 +126,7 @@
     ]
   },
   {
-    "Id": 17,
+    "Id": 14,
     "Tab": "Projects",
     "Title": "dmp-left",
     "Description": "",
@@ -151,7 +137,7 @@
     ]
   },
   {
-    "Id": 18,
+    "Id": 15,
     "Tab": "Projects",
     "Title": "dmp-right",
     "Description": "",
@@ -168,7 +154,7 @@
     ]
   },
   {
-    "Id": 19,
+    "Id": 16,
     "Tab": "Projects",
     "Title": "das-left",
     "Description": "",
@@ -179,7 +165,7 @@
     ]
   },
   {
-    "Id": 20,
+    "Id": 17,
     "Tab": "Projects",
     "Title": "das-right",
     "Description": "",
@@ -193,7 +179,7 @@
     ]
   },
   {
-    "Id": 21,
+    "Id": 18,
     "Tab": "Projects",
     "Title": "dps-left",
     "Description": "",
@@ -204,7 +190,7 @@
     ]
   },
   {
-    "Id": 22,
+    "Id": 19,
     "Tab": "Projects",
     "Title": "dps-right",
     "Description": "",
@@ -218,7 +204,7 @@
     ]
   },
   {
-    "Id": 23,
+    "Id": 20,
     "Tab": "Projects",
     "Title": "manfui-left",
     "Description": "",
@@ -229,7 +215,7 @@
     ]
   },
   {
-    "Id": 24,
+    "Id": 21,
     "Tab": "Projects",
     "Title": "manfui-right",
     "Description": "",
