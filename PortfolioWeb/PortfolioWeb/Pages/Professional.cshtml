@@ -11,9 +11,9 @@
 
     <div class="experience-body">
 
-        @foreach(var sect in Model.SectionList)
+        @foreach (var sect in Model.SectionList)
         {
-            if(sect.Tab.Equals("Experience") && 
+            if (sect.Tab.Equals("Experience") &&
                sect.Title.Equals("Professional Experience"))
             {
                 @sect.Description
@@ -22,7 +22,8 @@
 
         <br /><br />
         <a href="~/data/Clifton_Adam_2020_ResumeWeb.pdf" target="_blank" rel="noopener noreferrer">
-            View a printable version of my resume.</a>
+            View a printable version of my resume.
+        </a>
         <br /><br />
     </div>
 

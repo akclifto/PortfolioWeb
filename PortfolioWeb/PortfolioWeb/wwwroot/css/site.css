@@ -86,18 +86,19 @@ a {
 
 .home-left {
     float: left;
-    width: 62%;
+    width: 100%;
     padding-right: 10px;
     text-align: justify;
 }
 
-.home-right {
-    float: left;
-    position: relative;
-    width: 38%;
+.photo {
+    float:right;
     padding-left: 10px;
-    padding-bottom:20px;
-
+    padding-bottom: 10px;
+    max-width: 40%;
+    height:auto;
+    border-radius: 10%;
+    position:relative;
 }
 
 .learn-more {
@@ -261,7 +262,6 @@ a {
     float: left;
     width: 27%;
     padding-right: 10px;
-    text-align: justify;
 }
 
 .contact-middle {
@@ -303,7 +303,6 @@ a {
 
 .links { /*img links (LinkdIn, Github, etc.)*/
     font-size: 22px;
-    /*    float:left;*/
 }
 
 /* Privacy Tab
@@ -323,7 +322,7 @@ a {
 
 .privacy-right {
     /*put an image in here*/
-    width: 55%;
+    width: 45%;
 }
 
 /* Sticky footer styles
