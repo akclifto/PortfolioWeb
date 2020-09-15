@@ -13,11 +13,12 @@
         {
             if(sect.Title.Equals("Projects-Body"))
             {
-                @sect.Description
+                <p>
+                    @sect.Description
+                </p>
             }
         }
 
-        <br /><br />
     </div>
 
     <div class="container" style="padding-left:inherit">
@@ -31,6 +32,11 @@
             </div>
             <br />
         </div>
+    </div>
+
+    <div style="padding:5px;">
+        @* This blank div here, because without, on hover button for first project
+            overlaps above container. *@
     </div>
 
     <div class="container" style="padding-left:inherit">

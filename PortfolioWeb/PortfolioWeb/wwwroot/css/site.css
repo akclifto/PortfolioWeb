@@ -95,7 +95,7 @@ a {
     float:right;
     padding-left: 10px;
     padding-bottom: 10px;
-    max-width: 40%;
+    max-width: 35%;
     height:auto;
     border-radius: 10%;
     position:relative;
@@ -208,9 +208,6 @@ a {
 
 /* Projects page
 -----------------------------------------------------*/
-.projects {
-    padding-top:0px;
-}
 
 .project-cLeft {
     float: left;
@@ -277,6 +274,11 @@ a {
     padding-left: 10px;
     padding-top:inherit;
     padding-bottom: 5px;
+}
+
+.contact-photo {
+    max-width: 80%;
+    border-radius: 10%;
 }
 
 /* Dynamic display of columns from
