@@ -161,7 +161,7 @@
     "BulletList": [
       "Implements a console database application with SQL and Java",
       "Purpose: Develop skills with SQL and integration with common OOP language client",
-      "Team-Based, Agile/SCRUM process flow"
+      "Team-Based, Agile/SCRUM workflow"
     ]
   },
   {
@@ -224,6 +224,32 @@
       "Development with WPF, and XAML",
       "Fundmental use of MVC to ensure proper separation",
       "Static and Dynamic UI creation with XAML binding"
+    ]
+  },
+  {
+    "Id": 22,
+    "Tab": "Projects",
+    "Title": "capstone-left",
+    "Description": "",
+    "BulletList": [
+      "Implements a web application used as a training tool to enhance Agile workflow team development",
+      "Purpose: Develop a web application in an Agile environment with team and sponsors",
+      "Explore new technologies for developmental skill growth",
+      "Implemented with ReactJS and Node Express, integrating AWS and Heroku web-hosting service",
+      "Team-based, Agile/SCRUM workflow"
+    ]
+  },
+  {
+    "Id": 23,
+    "Tab": "Projects",
+    "Title": "capstone-right",
+    "Description": "",
+    "BulletList": [
+      "Development with Javascript/ReactJS frontend and Node Express backend",
+      "Integration Tools: AWS CDN and Heroku web-hosting",
+      "Testing Tools: Enzyme, Jest, and Jacoco",
+      "Fundamental use of common web application tools NPM, Yarn and Babel",
+      "Team-oriented communication and skills with regular stand-ups, weekly planning, refinement, and retrospective meetings with sponsors"
     ]
   }
 ]

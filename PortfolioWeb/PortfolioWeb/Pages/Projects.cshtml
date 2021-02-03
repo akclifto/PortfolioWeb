@@ -41,14 +41,16 @@
 
     <div class="container" style="padding-left:inherit">
 
+
         <div class="projects">
 
             <div class="panel">
-                <div class="project-name">This Web Portfolio <br />
-                    <img src="~/images/cs_logo.png" style="max-height: 30px; padding-bottom: 4px" alt="csharp"/> | 
-                    <i class="fab fa-html5" style="color:cornflowerblue; font-size:inherit" alt="html5"></i> | 
-                    <i class="fab fa-css3-alt" style="color:blueviolet; font-size:inherit" alt="css"></i> | 
-                    <i class="fab fa-js" style="color:forestgreen; font-size:inherit" alt="js"></i> 
+                <div class="project-name">
+                    Senior Capstone Project: Retrospective Toolkit <br />
+                    <i class="fab fa-js" style="color:forestgreen; font-size:inherit" alt="js"></i> |
+                    <i class="fab fa-react" style="color:dodgerblue; font-size:inherit" alt="reactjs"></i> |
+                    <i class="fab fa-html5" style="color:cornflowerblue; font-size:inherit" alt="html5"></i> |
+                    <i class="fab fa-css3-alt" style="color:blueviolet; font-size:inherit" alt="css"></i>
                 </div>
             </div>
 
@@ -57,11 +59,65 @@
                 <div class="project-left">
                     <ul class="project-list">
 
-                        @foreach(var sect in Model.SectionList)
+                        @foreach (var sect in Model.SectionList)
+                        {
+                            if (sect.Title.Equals("capstone-left"))
+                            {
+                                foreach (string s in sect.BulletList)
+                                {
+                                    <li>@s</li>
+                                }
+                            }
+                        }
+
+                        <li>
+                            <a href="https://github.com/akclifto/Retrospective_Toolkit" target="_blank" rel="noopener noreferrer">
+                                Link to Github source code.
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-right">
+                    <ul class="project-list">
+
+                        @foreach (var sect in Model.SectionList)
+                        {
+                            if (sect.Title.Equals("capstone-right"))
+                            {
+                                foreach (string s in sect.BulletList)
+                                {
+                                    <li>@s</li>
+                                }
+                            }
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+
+            <div class="panel">
+                <div class="project-name">
+                    This Web Portfolio <br />
+                    <img src="~/images/cs_logo.png" style="max-height: 30px; padding-bottom: 4px" alt="csharp" /> |
+                    <i class="fab fa-js" style="color:forestgreen; font-size:inherit" alt="js"></i>
+                    <i class="fab fa-html5" style="color:cornflowerblue; font-size:inherit" alt="html5"></i> |
+                    <i class="fab fa-css3-alt" style="color:blueviolet; font-size:inherit" alt="css"></i> |
+                </div>
+            </div>
+
+            <div class="panel-container">
+
+                <div class="project-left">
+                    <ul class="project-list">
+
+                        @foreach (var sect in Model.SectionList)
                         {
                             if (sect.Title.Equals("webp-left"))
                             {
-                                foreach(string s in sect.BulletList)
+                                foreach (string s in sect.BulletList)
                                 {
                                     <li>@s</li>
                                 }
@@ -100,7 +156,7 @@
                 <div class="project-name">
                     Distributed Media Player <br />
                     <i class="fab fa-java" style="color:orangered; font-size:inherit" alt="java"></i> |
-                    <img src="~/images/cpp_logo.png" style="max-height: 27px; position:center; padding-bottom: 4px" alt="cpp"/>
+                    <img src="~/images/cpp_logo.png" style="max-height: 27px; position:center; padding-bottom: 4px" alt="cpp" />
                 </div>
             </div>
 
@@ -154,7 +210,8 @@
         <div class="projects">
 
             <div class="panel">
-                <div class="project-name">Database Application Service <br />
+                <div class="project-name">
+                    Database Application Service <br />
                     <i class="fab fa-java" style="color:orangered; font-size:inherit" alt="java"></i> |
                     <img src="~/images/sql_logo.png" style="max-height: 25px; padding-bottom: 4px" alt="sql" />
                 </div>
@@ -205,7 +262,8 @@
         <div class="projects">
 
             <div class="panel">
-                <div class="project-name">Design Patterns Simulation: Heroes and Villains <br />
+                <div class="project-name">
+                    Design Patterns Simulation: Heroes and Villains <br />
                     <i class="fab fa-java" style="color:orangered; font-size:inherit" alt="java"></i>
                 </div>
             </div>
@@ -255,7 +313,8 @@
         <div class="projects">
 
             <div class="panel">
-                <div class="project-name">Manufacturing UI with Dynamic File Tree <br />
+                <div class="project-name">
+                    Manufacturing UI with Dynamic File Tree <br />
                     <img src="~/images/cs_logo.png" style="max-height: 30px; padding-bottom: 4px" alt="csharp" /> |
                     <img src="~/images/XamarinLogo.png" style="max-height: 41px; padding-bottom: 3px" alt="xaml" />
                 </div>
