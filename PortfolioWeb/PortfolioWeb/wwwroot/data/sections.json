@@ -10,14 +10,14 @@
     "Id": 22,
     "Tab": "Index",
     "Title": "Who I Am",
-    "Description": "Despite a successful and rewarding 10 years as a legal professional at the United States Attorney's Office, in January 2017, I decided to pursue a degree and career in Software Engineering. I am currently in my Senior Year at Arizona State University's Ira A. Fulton School of Engineering. I am on track to graduate with a Bachelor of Science in Software Engineering in May 2021.",
+    "Description": "In January 2017, despite a successful and rewarding 10 years as a legal professional at the United States Attorney's Office, I decided to pursue a degree and career in Software Engineering. I am currently in my Senior Year at Arizona State University's Ira A. Fulton School of Engineering. I am on track to graduate with a Bachelor of Science degree in Software Engineering in April 2021.",
     "BulletList": []
   },
   {
     "Id": 2,
     "Tab": "Index",
     "Title": "Education",
-    "Description": "I am pursuing a Bachelor's of Science in Software Engineering at Arizona State University's Ira A. Fulton Schools of Engineering, and am on track to graduate May 2021.",
+    "Description": "I am pursuing a Bachelor of Science degree in Software Engineering at Arizona State University's Ira A. Fulton Schools of Engineering, and am on track to graduate May 2021.",
     "BulletList": []
   },
   {
@@ -106,9 +106,9 @@
     "Title": "webp-left",
     "Description": "",
     "BulletList": [
-      "A web-based portfolio to highlight resume and skill attributes",
+      "A web-based portfolio to highlight resume, skills and attributes",
       "Purpose: Build an online portfolio with common web development tools and languages",
-      "Implements a website designed and built by me with ASP.NET"
+      "Implemented designed and built by me with ASP.NET"
     ]
   },
   {
@@ -133,7 +133,7 @@
     "BulletList": [
       "A distributed media player with Java and C++",
       "Purpose: Develop a distributed application with proper separation of client and server",
-      "Implements a GUI using server/ client remote proctor service"
+      "Implemented a GUI using server/ client remote proctor service"
     ]
   },
   {
@@ -159,7 +159,7 @@
     "Title": "das-left",
     "Description": "",
     "BulletList": [
-      "Implements a console database application with SQL and Java",
+      "Implemented a console database application with SQL and Java",
       "Purpose: Develop skills with SQL and integration with common OOP language client",
       "Team-Based, Agile/SCRUM workflow"
     ]
@@ -184,7 +184,7 @@
     "Title": "dps-left",
     "Description": "",
     "BulletList": [
-      "Implements an console-based simulated scenario where heroes and villains fight it out for world domination",
+      "Implemented an console-based simulated scenario where heroes and villains fight it out for world domination",
       "Purpose: Use design patterns with proper separation and testing",
       "Gang of Four Design (GoF) Patterns with Java"
     ]
@@ -209,7 +209,7 @@
     "Title": "manfui-left",
     "Description": "",
     "BulletList": [
-      "Implements and mock manufacturing UI and system file tree",
+      "Implemented and mocked manufacturing UI and system file tree",
       "Purpose: Learn the basics of WPF and Xamarin XAML to create UI applications",
       "Implemented with C#, WPF and Xamarin"
     ]
@@ -232,7 +232,7 @@
     "Title": "capstone-left",
     "Description": "",
     "BulletList": [
-      "Implements a web application used as a training tool to enhance Agile workflow team development",
+      "Implemented a web application used as a training tool to enhance Agile workflow team development",
       "Purpose: Develop a web application in an Agile environment with team and sponsors",
       "Explore new technologies for developmental skill growth",
       "Implemented with ReactJS and Node Express, integrating AWS and Heroku web-hosting service",
