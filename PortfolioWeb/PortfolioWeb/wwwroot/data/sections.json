@@ -31,7 +31,7 @@
     "Id": 4,
     "Tab": "Index",
     "Title": "Skillsets",
-    "Description": "As a Software Engineering student at ASU, I gained significant knowledge and practical skills in programming logic, design processes and patterns, structure implementation, adhering to SDLC and MVC principles, software/ system analysis, Agile and SCRUM workflow, unit testing, and quality assurance. I am proficient in Java, C, C++, and C# languages, as well as SQL. Moreover, I am learning how to integrate it all with client-facing frameworks like ASP.NET, JavaScript, and HTML.",
+    "Description": "As a Software Engineering student at ASU, I gained significant knowledge and practical skills in programming logic, design processes and patterns, structure implementation, adhering to SDLC and MVC principles, software/ system analysis, Agile and SCRUM workflow, testing environments, and quality assurance. I am proficient in Java, C, C++, and C# languages, as well as SQL. Moreover, I am learning how to integrate it all with client-facing frameworks with ASP.NET, JavaScript, Node, ReactJS, and of course, HTML/CSS.",
     "BulletList": []
   },
   {
@@ -232,10 +232,10 @@
     "Title": "capstone-left",
     "Description": "",
     "BulletList": [
-      "Implemented a web application used as a training tool to enhance Agile workflow team development",
+      "Deployed a web application used as a training tool to enhance Agile workflow team development",
       "Purpose: Develop a web application in an Agile environment with team and sponsors",
-      "Explore new technologies for developmental skill growth",
-      "Implemented with ReactJS and Node Express, integrating AWS and Heroku web-hosting service",
+      "Explored new technologies for developmental skills and growth",
+      "Implemented with ReactJS and Node Express, integrated AWS and Heroku web-hosting service",
       "Team-based, Agile/SCRUM workflow"
     ]
   },
