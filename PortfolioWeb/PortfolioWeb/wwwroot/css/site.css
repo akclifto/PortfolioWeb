@@ -233,7 +233,7 @@ a {
 
 .project-head {
     vertical-align:central;
-    border-bottom:none;
+    border-bottom:groove;
 }
 
 .project-name {
